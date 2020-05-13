@@ -1,2 +1,2 @@
-# personal-portfolio
-Personal portfolio to showcase projects
+# Personal Portfolio
+This is a page that compiles my work.
