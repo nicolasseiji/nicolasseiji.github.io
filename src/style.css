@@ -38,6 +38,11 @@ main {
   margin-top: 5em;
 }
 
+about-me {
+  width: 70%;
+  margin: auto;
+}
+
 /* aside */
 
 #jumbo {
@@ -62,12 +67,14 @@ main {
 .card {
   margin: 3em auto;
   height: 25em;
-  max-width: 50em
-
+  max-width: 50em;
 }
 
 .card-img {
-  height:20em;
+  height:320px;
+  width: 700px;
+  margin: auto;
+  background-color: black;
 }
 
 .card-body {
@@ -77,7 +84,7 @@ main {
 .card-title {
   color: black;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.1em;
   padding-left: 1em;
   padding-right: 1em;
   color: #d10e0e;
@@ -107,6 +114,7 @@ footer {
 
 /* media queries */
 
+/* tablet */
 @media only screen and (max-width: 768px) and (min-width: 576px) {
   #jumbo {
     text-align: center;
@@ -137,7 +145,7 @@ footer {
     src:'./img/weather-app-md.png' ;
   }
 }
-
+/* mobile */
 @media only screen and (max-width: 576px) {
 
   main {
@@ -179,7 +187,7 @@ footer {
   }
 
   .card-body p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
   }
 
